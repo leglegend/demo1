@@ -1,0 +1,35 @@
+/* 字体样式 */
+@font-face {
+    font-family: "Nexa Light";
+    src: url('./NexaLight.ttf.eot?t=1545807318834');
+    src: /* IE9*/ url('./NexaLight.ttf.eot?t=1545807318834#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */ url('./NexaLight.ttf.woff?t=1545807318834') format('woff'),
+        /* chrome, firefox */ url('./NexaLight.otf?t=1545807318834') format('truetype'),
+        /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('./NexaLight.ttf.svg?t=1545807318834#iconfont') format('svg');
+}
+
+@font-face {
+    font-family: "DINPro-Regular";
+    src: url('./dinregularwebfont.ttf?t=1491354994135');
+    src: /* IE9*/ url('./dinregularwebfont.eot?t=1491354994135#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */ url('./dinregularwebfont.woff?t=1491354994135') format('woff'),
+        /* chrome, firefox */ url('./dinregularwebfont.ttf?t=1491354994135') format('truetype'),
+}
+
+@font-face {
+    font-family: 'DINPro-Medium';
+    src: url('./DINMedium.eot');
+    src: local('DINMedium'), url('./DINMedium.woff') format('woff'), url('./DINMedium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "TG-TYPE-Regular";
+    src: url('./alibaba/TG-TYPE-Regular.woff') format('woff'),
+    url('./alibaba/TG-TYPE-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: "TG-TYPE-Bold";
+    src: url('./alibaba/TG-TYPE-Bold.woff') format('woff'),
+    url('./alibaba/TG-TYPE-Bold.otf') format('truetype');
+}
